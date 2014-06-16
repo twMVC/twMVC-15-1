@@ -1,0 +1,12 @@
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\obj\Debug\ExampleConsole.csprojResolveAssemblyReference.cache
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\ExampleConsole.exe.config
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\ExampleConsole.exe
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\ExampleConsole.pdb
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\Kuicker.dll
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\log4net.dll
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\Newtonsoft.Json.dll
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\Kuicker.pdb
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\log4net.xml
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\bin\Debug\Newtonsoft.Json.xml
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\obj\Debug\ExampleConsole.exe
+C:\_\Google Drive\_K\Kuicker\src\ExampleConsole\obj\Debug\ExampleConsole.pdb

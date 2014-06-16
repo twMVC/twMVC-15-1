@@ -1,0 +1,15 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\KuickConsoleApp.exe.config
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\KuickConsoleApp.exe
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.Builtin.Config.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.Builtin.Mapping.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.Data.MSSql.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.Builtin.Config.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.Builtin.Mapping.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.Data.MSSql.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickConsoleApp\obj\Release\KuickConsoleApp.exe

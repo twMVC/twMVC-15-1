@@ -1,0 +1,11 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\bin\Release\Kuick.Builtin.Mapping.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\bin\Release\Kuick.Builtin.Mapping.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\obj\Release\Kuick.Builtin.Mapping.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\obj\Release\Kuick.Builtin.Mapping.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Mapping\obj\Release\Kuick.Builtin.Mapping.csprojResolveAssemblyReference.cache

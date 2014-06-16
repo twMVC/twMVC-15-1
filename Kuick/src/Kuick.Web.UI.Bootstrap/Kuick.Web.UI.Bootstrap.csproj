@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{149470F0-C86E-4378-9B41-B0B423FD40A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kuick.Web.UI.Bootstrap</RootNamespace>
+    <AssemblyName>Kuick.Web.UI.Bootstrap</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Kuick.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Editor\EditorSource.cs" />
+    <Compile Include="Editor\EditorVisual.cs" />
+    <Compile Include="Enum\RowStatus.cs" />
+    <Compile Include="Form\Bootstrap\BCheckbox.cs" />
+    <Compile Include="Form\Bootstrap\BRadio.cs" />
+    <Compile Include="Form\Bootstrap\BToggle.cs" />
+    <Compile Include="Cache\HtmlTagCache.cs" />
+    <Compile Include="Form\Kuick\KRadio.cs" />
+    <Compile Include="Form\Kuick\KToggle.cs" />
+    <Compile Include="Grid\GridSource.cs" />
+    <Compile Include="Grid\GridVisual.cs" />
+    <Compile Include="Html\Css.cs" />
+    <Compile Include="Enum\VisualSize.cs" />
+    <Compile Include="Html\Abstract\ContainerHtmlTag.cs" />
+    <Compile Include="Html\Abstract\RichContainerHtmlTag.cs" />
+    <Compile Include="Html\Abstract\RichHtmlTag.cs" />
+    <Compile Include="Misc\BootstrapConstants.cs" />
+    <Compile Include="Misc\BootstrapExtender.cs" />
+    <Compile Include="Misc\BootstrapHelper.cs" />
+    <Compile Include="Grid\Grid.cs" />
+    <Compile Include="Table\BTable.cs" />
+    <Compile Include="Html\Enum\AttributeName.cs" />
+    <Compile Include="Html\Enum\TagName.cs" />
+    <Compile Include="Html\Enum\AttributeStyle.cs" />
+    <Compile Include="Html\Interface\IAngularJSHtmlTag.cs" />
+    <Compile Include="Html\Interface\IAriaHtmlTag.cs" />
+    <Compile Include="Html\Interface\IDataHtmlTag.cs" />
+    <Compile Include="Html\Interface\IKuickHtmlTag.cs" />
+    <Compile Include="Html\Interface\IHtmlTag.cs" />
+    <Compile Include="Html\Tag\ButtonTag.cs" />
+    <Compile Include="Html\Tag\AbbrTag.cs" />
+    <Compile Include="Html\Tag\AddressTag.cs" />
+    <Compile Include="Html\Tag\BrTag.cs" />
+    <Compile Include="Html\Tag\ATag.cs" />
+    <Compile Include="Html\Tag\BlockquoteTag.cs" />
+    <Compile Include="Html\Tag\CiteTag.cs" />
+    <Compile Include="Html\Tag\CaptionTag.cs" />
+    <Compile Include="Html\Tag\H2Tag.cs" />
+    <Compile Include="Html\Tag\H3Tag.cs" />
+    <Compile Include="Html\Tag\H4Tag.cs" />
+    <Compile Include="Html\Tag\H5Tag.cs" />
+    <Compile Include="Html\Tag\H6Tag.cs" />
+    <Compile Include="Html\Tag\H1Tag.cs" />
+    <Compile Include="Html\Tag\ImgTag.cs" />
+    <Compile Include="Html\Tag\ThTag.cs" />
+    <Compile Include="Html\Tag\THeadTag.cs" />
+    <Compile Include="Html\Tag\TdTag.cs" />
+    <Compile Include="Html\Tag\TrTag.cs" />
+    <Compile Include="Html\Tag\TableTag.cs" />
+    <Compile Include="Html\Tag\PreTag.cs" />
+    <Compile Include="Html\Tag\DtTag.cs" />
+    <Compile Include="Html\Tag\DdTag.cs" />
+    <Compile Include="Html\Tag\DlTag.cs" />
+    <Compile Include="Html\Tag\OlTag.cs" />
+    <Compile Include="Html\Tag\LiTag.cs" />
+    <Compile Include="Html\Tag\UlTag.cs" />
+    <Compile Include="Html\Tag\ITag.cs" />
+    <Compile Include="Html\Tag\EmTag.cs" />
+    <Compile Include="Html\Tag\StrongTag.cs" />
+    <Compile Include="Html\Tag\SmallTag.cs" />
+    <Compile Include="Html\Tag\PTag.cs" />
+    <Compile Include="Html\Tag\OptionTag.cs" />
+    <Compile Include="Html\Tag\SelectTag.cs" />
+    <Compile Include="Html\Tag\TextareaTag.cs" />
+    <Compile Include="Html\Tag\DivTag.cs" />
+    <Compile Include="Html\Tag\FormTag.cs" />
+    <Compile Include="Html\Tag\FieldsetTag.cs" />
+    <Compile Include="Html\Tag\LegendTag.cs" />
+    <Compile Include="Html\Tag\LabelTag.cs" />
+    <Compile Include="Html\Tag\SpanTag.cs" />
+    <Compile Include="Html\Tag\InputTag.cs" />
+    <Compile Include="Misc\BootstrapStart.cs" />
+    <Compile Include="Editor\Editor.cs" />
+    <Compile Include="Html\Attribute\Attr.cs" />
+    <Compile Include="Html\Abstract\HtmlTag.cs" />
+    <Compile Include="Misc\Viewer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting\ColumnStyle.cs" />
+    <Compile Include="Setting\TableSetting.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kuick.snk" />
+    <None Include="Properties\build.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Base\" />
+    <Folder Include="Setting\Enum\" />
+    <Folder Include="Table\Bootstrap\" />
+    <Folder Include="Table\Kuick\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kuick.Data\Kuick.Data.csproj">
+      <Project>{3AEE51EB-E1F8-4C45-88AF-36823DB6110F}</Project>
+      <Name>Kuick.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick.Web\Kuick.Web.csproj">
+      <Project>{B1232BA8-680A-44AE-A372-3C01C418836B}</Project>
+      <Name>Kuick.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick\Kuick.csproj">
+      <Project>{5A119AE4-21E6-48A6-BA0E-28899638BD8E}</Project>
+      <Name>Kuick</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <!-- customized build-->
+  <!--<Import Project="Properties\build.targets" />-->
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+</Project>

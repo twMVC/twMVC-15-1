@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0BB1D3B9-48E1-4DF7-AE61-4DDAB6B01E8E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kuick.Web.UI</RootNamespace>
+    <AssemblyName>Kuick.Web.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Kuick.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ApiHandler.cs" />
+    <Compile Include="Base\EditPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\ListPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\SigninPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\SignoutPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\SearchPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Element\A.cs" />
+    <Compile Include="Base\AttributesBase.cs" />
+    <Compile Include="Element\Li.cs" />
+    <Compile Include="Element\Ul.cs" />
+    <Compile Include="Enum\EditMode.cs" />
+    <Compile Include="Enum\IconSize.cs" />
+    <Compile Include="Element\Tf.cs" />
+    <Compile Include="Element\Th.cs" />
+    <Compile Include="Html\Enum\HtmlAttr.cs" />
+    <Compile Include="Html\Enum\HtmlTag.cs" />
+    <Compile Include="Interface\IAttributes.cs" />
+    <Compile Include="Html\HtmlBuilder.cs" />
+    <Compile Include="Misc\Show.cs" />
+    <Compile Include="Element\Table.cs" />
+    <Compile Include="Element\Td.cs" />
+    <Compile Include="Element\Tr.cs" />
+    <Compile Include="Misc\UICurrent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kuick.snk" />
+    <None Include="Properties\build.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kuick.Data\Kuick.Data.csproj">
+      <Project>{3AEE51EB-E1F8-4C45-88AF-36823DB6110F}</Project>
+      <Name>Kuick.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick.Web\Kuick.Web.csproj">
+      <Project>{B1232BA8-680A-44AE-A372-3C01C418836B}</Project>
+      <Name>Kuick.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick\Kuick.csproj">
+      <Project>{5A119AE4-21E6-48A6-BA0E-28899638BD8E}</Project>
+      <Name>Kuick</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <!-- customized build-->
+  <!--<Import Project="Properties\build.targets" />-->
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+</Project>

@@ -1,0 +1,4 @@
+E:\20140614\Kuicker\src\Kuicker.Builtin.Log\bin\Debug\Kuicker.Builtin.Log.dll
+E:\20140614\Kuicker\src\Kuicker.Builtin.Log\bin\Debug\Kuicker.Builtin.Log.pdb
+E:\20140614\Kuicker\src\Kuicker.Builtin.Log\obj\Debug\Kuicker.Builtin.Log.dll
+E:\20140614\Kuicker\src\Kuicker.Builtin.Log\obj\Debug\Kuicker.Builtin.Log.pdb

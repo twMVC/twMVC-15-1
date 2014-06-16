@@ -1,0 +1,14 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Kuick.Data.OracleClientX86.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Kuick.Data.OracleClientX86.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Kuick.Data.Oracle.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Oracle.DataAccess.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Kuick.Data.Oracle.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\obj\Release\Kuick.Data.OracleClientX86.csprojResolveAssemblyReference.cache
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\obj\Release\Kuick.Data.OracleClientX86.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.OracleClientX86\obj\Release\Kuick.Data.OracleClientX86.pdb

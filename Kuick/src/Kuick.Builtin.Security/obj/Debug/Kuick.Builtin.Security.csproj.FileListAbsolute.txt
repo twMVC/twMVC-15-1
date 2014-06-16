@@ -1,0 +1,17 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Kuick.Builtin.Security.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Kuick.Builtin.Security.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Kuick.Web.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\AntiXssLibrary.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\HtmlSanitizationLibrary.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Kuick.Web.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\AntiXssLibrary.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\HtmlSanitizationLibrary.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Debug\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\obj\Debug\Kuick.Builtin.Security.csprojResolveAssemblyReference.cache
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\obj\Debug\Kuick.Builtin.Security.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\obj\Debug\Kuick.Builtin.Security.pdb

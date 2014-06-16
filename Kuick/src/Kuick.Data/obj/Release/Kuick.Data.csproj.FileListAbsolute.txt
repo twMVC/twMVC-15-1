@@ -1,0 +1,9 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\obj\Release\Kuick.Data.csprojResolveAssemblyReference.cache
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\obj\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data\obj\Release\Kuick.Data.pdb

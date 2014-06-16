@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+	<meta charset="utf-8">
+	<title id="__Title__" runat="server">Kuick Web Site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootstrap.min.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/prettify.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootstrap-wysihtml5.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/datepicker.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootstrap-timepicker.min.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootstrapSwitch.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootleg-core.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootleg-modal.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootleg-dropdowns.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootleg-tabs.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootleg-buttons.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootleg-collapse.css")%>" />
+	<link rel="stylesheet" type="text/css" href="<%:Page.ResolveUrl("~/css/bootleg-carousel.css")%>" />
+	</style>
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="../assets/js/html5shiv.js"></script>
+	<![endif]-->
+	<!-- Fav and touch icons -->
+	<link rel="kuick-apple-touch-icon" sizes="144x144" href="<%:Page.ResolveUrl("~/img/ico/kuick-apple-touch-icon-144.png")%>">
+	<link rel="kuick-apple-touch-icon" sizes="114x114" href="<%:Page.ResolveUrl("~/img/ico/kuick-apple-touch-icon-114.png")%>">
+	<link rel="kuick-apple-touch-icon" sizes="72x72" href="<%:Page.ResolveUrl("~/img/ico/kuick-apple-touch-icon-72.png")%>">
+	<link rel="kuick-apple-touch-icon" href="<%:Page.ResolveUrl("~/img/ico/kuick-apple-touch-icon-57.png")%>">
+	<link rel="shortcut icon" href="<%:Page.ResolveUrl("~/img/ico/favicon.png")%>">
+	<asp:ContentPlaceHolder ID="__Head__" runat="server" />
+</head>
+<body>
+	<div>
+		<asp:ContentPlaceHolder ID="__Main__" runat="server" EnableViewState="false" />
+		<script type="text/javascript" src="<%:Page.ResolveUrl("~/js/wysihtml5-0.3.0.min.js")%>"></script>
+		<script type="text/javascript" src="<%:Page.ResolveUrl("~/js/jquery-1.9.0.min.js")%>"></script>
+		<script type="text/javascript" src="<%:Page.ResolveUrl("~/js/prettify.js")%>"></script>
+		<script type="text/javascript" src="<%:Page.ResolveUrl("~/js/bootstrap.min.js")%>"></script>
+		<script type="text/javascript" src="<%:Page.ResolveUrl("~/js/bootstrap-wysihtml5.js")%>"></script>
+		<script type="text/javascript" src="<%:Page.ResolveUrl("~/js/bootstrap-datepicker.js")%>"></script>
+		<script type="text/javascript" src="<%:Page.ResolveUrl("~/js/bootstrap-timepicker.min.js")%>"></script>
+		<script type="text/javascript" src="<%:Page.ResolveUrl("~/js/bootstrapSwitch.js")%>"></script>
+		<form id="form1" runat="server"></form>
+		<asp:ContentPlaceHolder ID="__Footer__" runat="server" />
+	</div>
+</body>
+</html>

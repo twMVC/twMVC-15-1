@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A119AE4-21E6-48A6-BA0E-28899638BD8E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kuick</RootNamespace>
+    <AssemblyName>Kuick</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Kuick.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Application\Kuicker\packages\Newtonsoft.Json.5.0.5\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\GroupBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\GroupKeyBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\GroupNameBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\KeyBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\NameBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Base\BuiltinBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Base\NullBuiltin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Builtins.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Enum\AuditLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Interface\IAuditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Interface\IAuthenticate.cs" />
+    <Compile Include="Builtin\Interface\IAuthorize.cs" />
+    <Compile Include="Builtin\Interface\IBuiltin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Interface\ICache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Interface\IConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Interface\IDirectory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Interface\IIdentity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Interface\IMultilingual.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Interface\ISecurity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Null\NullAuthenticate.cs" />
+    <Compile Include="Builtin\Null\NullAuthorize.cs" />
+    <Compile Include="Builtin\Null\NullAuditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Null\NullCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Null\NullConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Null\NullDirectory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Null\NullIdentity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Null\NullMultilingual.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Builtin\Null\NullSecurity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\AssemblyCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\EnumCache.cs" />
+    <Compile Include="Cache\ErrorCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\EventCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\GroupCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\GroupKeyCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\GroupNameCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\KeyCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\NameCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\StaticCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\TypeCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Config\Config.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Config\ConfigDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Config\ConfigHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Config\ConfigSection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Config\ConfigSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Config\Enum\ConfigScope.cs" />
+    <Compile Include="Diagnostics\Enum\LogLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Diagnostics\InterIntervalLogger.cs" />
+    <Compile Include="Diagnostics\IntervalLogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Diagnostics\LogBlock.cs" />
+    <Compile Include="Diagnostics\Logger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Diagnostics\TraceFilter.cs" />
+    <Compile Include="Enum\Action\LogicAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\Action\SpecAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\Action\VisualAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\Bits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\DataFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\Flag.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\Frequency.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\Gender.cs" />
+    <Compile Include="Enum\HttpMethod.cs" />
+    <Compile Include="Enum\KernelMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\KernelPosition.cs" />
+    <Compile Include="Enum\KernelStage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\ResponseType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\Scope.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\000__KernelError_Common.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\001__KernelError_HeartbeatStart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\002__KernelError_ConfigName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\Base\Error.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\Base\__BackEndError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\Base\__BuiltinsError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\Base\__DataError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\Base\__KernelError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\Base\__ProjectError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\Base\__ServerError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Error\Interface\IError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Event\Interface\IEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exception\ApplicationConfigException.cs" />
+    <Compile Include="Exception\ConfigException.cs" />
+    <Compile Include="Exception\DatabaseConfigException.cs" />
+    <Compile Include="Exception\KernelConfigException.cs" />
+    <Compile Include="Exception\KernelException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exception\KException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper\HttpHelper.cs" />
+    <Compile Include="Interface\ICloneable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IGroupKey.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IGroupName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IInitializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IIsNull.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IKey.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IResult.cs" />
+    <Compile Include="Interface\IStart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IStorage.cs" />
+    <Compile Include="Kernel\Initializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Heartbeat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Platform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Start.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\StartBase.cs" />
+    <Compile Include="Misc\Any.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Anys.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Calculator.cs" />
+    <Compile Include="Misc\Checker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Constants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\ContentType.cs" />
+    <Compile Include="Misc\Current.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Dater.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Disker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Emailer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\EnumItem.cs" />
+    <Compile Include="Misc\EnumReference.cs" />
+    <Compile Include="Misc\Extender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Formator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\GroupNameValue.cs" />
+    <Compile Include="Misc\GroupValues.cs" />
+    <Compile Include="Misc\Jsoner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Many.cs" />
+    <Compile Include="Misc\Pack.cs" />
+    <Compile Include="Misc\PageOne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Paginator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Pointer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Randomizer.cs" />
+    <Compile Include="Misc\Reflector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Result.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Serializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\Utility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\Attribute\PermissionAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Attribute\PermissionGroupAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Enum\AuthenticationMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Enum\Encryption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Enum\OperationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Enum\PermissionAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Enum\ResourceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\ForceImpersonator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Impersonator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Interface\IAccessControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Interface\IApp.cs" />
+    <Compile Include="Security\Interface\IFeature.cs" />
+    <Compile Include="Security\Interface\IFragment.cs" />
+    <Compile Include="Security\Interface\IResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Interface\IRole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Interface\IUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\Permission.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\PermissionAnalyzer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\WindowsAuthentication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\WinActiveDirectory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\WinEventLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\WinManagement.cs" />
+    <Compile Include="Windows\WinRegistry.cs" />
+    <Compile Include="Windows\WinWMI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kuick.snk" />
+    <None Include="packages.config" />
+    <None Include="Properties\build.targets" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- customized build-->
+  <!--<Import Project="Properties\build.targets" />-->
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+</Project>

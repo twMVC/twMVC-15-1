@@ -1,0 +1,11 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\bin\Debug\Kuick.Plugin.Difference.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\bin\Debug\Kuick.Plugin.Difference.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\bin\Debug\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\bin\Debug\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\bin\Debug\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\bin\Debug\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\bin\Debug\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\obj\Debug\Kuick.Plugin.Difference.csprojResolveAssemblyReference.cache
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\obj\Debug\Kuick.Plugin.Difference.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\obj\Debug\Kuick.Plugin.Difference.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Difference\bin\Debug\Newtonsoft.Json.dll

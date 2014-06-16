@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets"/>
+	<PropertyGroup>
+		<IsReleaseBuild Condition="('$(Configuration)'=='Release') ">False</IsReleaseBuild>
+		<Major>1</Major>
+		<Minor>0</Minor>
+		<Build>0</Build>
+		<Revision>0</Revision>
+		<BuildStartDate>1970/11/24</BuildStartDate>
+		<AssemblyInfoFile>Properties\AssemblyInfo.cs</AssemblyInfoFile>
+	</PropertyGroup>
+
+	<Target Name="UpdateVersion" Returns ="AssemblyFileVersion">
+		<Version Major="$(Major)" Minor="$(Minor)" Build="$(Build)" BuildType="Automatic" StartDate="$(BuildStartDate)" RevisionType="Automatic" >
+			<Output TaskParameter="Major" PropertyName="Major" />
+			<Output TaskParameter="Minor" PropertyName="Minor" />
+			<Output TaskParameter="Build" PropertyName="Build" />
+			<Output TaskParameter="Revision" PropertyName="Revision" />
+		</Version>
+
+		<CreateProperty Value="$(Major).$(Minor).0.0">
+			<Output TaskParameter="Value" PropertyName="AssemblyVersion" />
+		</CreateProperty>
+		<CreateProperty Value="$(Major).$(Minor).$(Build).$(Revision)"  Condition=" '$(Configuration)' != 'Debug' ">
+			<Output TaskParameter="Value" PropertyName="AssemblyFileVersion" />
+		</CreateProperty>
+		<CreateProperty Value="$(Major).$(Minor).$(Build).$(Revision)(Debug)"  Condition=" '$(Configuration)' == 'Debug' ">
+			<Output TaskParameter="Value" PropertyName="AssemblyFileVersion" />
+		</CreateProperty>
+
+		<FileUpdate Files="$(AssemblyInfoFile)"
+				Regex="(?&lt;=AssemblyVersion\(&quot;)(\d+)\.(\d+)\.(\d+)\.(\d+)(?=&quot;\)\])"
+				ReplacementText="$(AssemblyVersion)" />
+
+		<FileUpdate Files="$(AssemblyInfoFile)"
+				Regex="(?&lt;=AssemblyFileVersion\(&quot;)(\d+)\.(\d+)\.(\d+)\.(\d+)(.*)(?=&quot;\)\])"
+				ReplacementText="$(AssemblyFileVersion)" />
+
+		<Message Importance="high" Text="The version of $(ProjectName) has been changed to: $(AssemblyFileVersion)"/>
+	</Target>
+
+	<PropertyGroup>
+		<BuildDependsOn>
+			PrepareBuildProcess;
+			$(BuildDependsOn);
+			CompleteBuildProcess;
+		</BuildDependsOn>
+	</PropertyGroup>
+
+	<Target Name="PrepareBuildProcess">
+		<Message Importance="high" Text="=== PrepareBuildProcess ==="/>
+		<CallTarget Targets="UpdateVersion" Condition="('$(Configuration)'=='Release')"/>
+		<Message Importance="high" Text="Start to build version: $(AssemblyFileVersion)"/>
+	</Target>
+
+	<Target Name="CompleteBuildProcess">
+		<Message Importance="high" Text="=== CompleteBuildProcess ==="/>
+		<Message Importance="high" Text="The version: $(AssemblyFileVersion) has been built."/>
+	</Target>
+</Project>

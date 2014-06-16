@@ -1,0 +1,11 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\bin\Release\Kuick.Builtin.Config.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\bin\Release\Kuick.Builtin.Config.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\obj\Release\Kuick.Builtin.Config.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\obj\Release\Kuick.Builtin.Config.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Config\obj\Release\Kuick.Builtin.Config.csprojResolveAssemblyReference.cache

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB2F82A0-2161-49BA-AC9C-E88B754191A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kuick.Builtin.Security</RootNamespace>
+    <AssemblyName>Kuick.Builtin.Security</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Kuick.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuiltIn\AuthenticateService.cs" />
+    <Compile Include="BuiltIn\AuthorizeService.cs" />
+    <Compile Include="Entity\AppEntity.cs" />
+    <Compile Include="Entity\UserEntity.cs" />
+    <Compile Include="Entity\RoleEntity.cs" />
+    <Compile Include="Entity\FragmentEntity.cs" />
+    <Compile Include="Entity\FeatureEntity.cs" />
+    <Compile Include="Entity\DeviceEntity.cs" />
+    <Compile Include="Enum\AppPlatform.cs" />
+    <Compile Include="Enum\BrowserType.cs" />
+    <Compile Include="Enum\DeviceType.cs" />
+    <Compile Include="Misc\SecurityStart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kuick.snk" />
+    <None Include="Properties\build.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kuick.Data\Kuick.Data.csproj">
+      <Project>{3AEE51EB-E1F8-4C45-88AF-36823DB6110F}</Project>
+      <Name>Kuick.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick.Web\Kuick.Web.csproj">
+      <Project>{B1232BA8-680A-44AE-A372-3C01C418836B}</Project>
+      <Name>Kuick.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick\Kuick.csproj">
+      <Project>{5A119AE4-21E6-48A6-BA0E-28899638BD8E}</Project>
+      <Name>Kuick</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- customized build-->
+  <!--<Import Project="Properties\build.targets" />-->
+</Project>

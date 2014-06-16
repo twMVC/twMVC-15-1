@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{98D55753-F16C-4D2A-A101-B301622ED5BC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Core", "0. Core", "{99682CE4-DA58-4EE3-85EE-774404E5D402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Builtin", "1. Builtin", "{1FCA2BF9-C992-4367-A4D5-99201D23BC63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Plugin", "3. Plugin", "{72E86713-271B-4761-8AC9-08227063A83C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. App", "4. App", "{B6584B45-BD89-4A1D-AC44-49FA3486F8F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. Test", "9. Test", "{7CCE100E-CDDC-41C3-9E64-A32FBAEE41AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{BFFA6346-00B6-47A7-9E49-3C9DC7583931}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A9D4A523-FCB9-4B27-A9C8-F24E32641A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{DB70A585-DB63-4AFF-B7F9-BBC2080D6A88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Data", "2. Data", "{B77DA1FF-778B-4EB8-A874-A5C40AEEA642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Core", "0. Core", "{34698D82-1078-48F6-B142-E55A081637A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuicker", "Kuicker\Kuicker.csproj", "{70FF0193-EBCD-4592-9E67-5F7E2FB8C62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuicker.Builtin.Log", "Kuicker.Builtin.Log\Kuicker.Builtin.Log.csproj", "{B33D1AE7-8FC3-4DFD-8885-47B14BF63E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70FF0193-EBCD-4592-9E67-5F7E2FB8C62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FF0193-EBCD-4592-9E67-5F7E2FB8C62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FF0193-EBCD-4592-9E67-5F7E2FB8C62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FF0193-EBCD-4592-9E67-5F7E2FB8C62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33D1AE7-8FC3-4DFD-8885-47B14BF63E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33D1AE7-8FC3-4DFD-8885-47B14BF63E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33D1AE7-8FC3-4DFD-8885-47B14BF63E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33D1AE7-8FC3-4DFD-8885-47B14BF63E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70FF0193-EBCD-4592-9E67-5F7E2FB8C62C} = {99682CE4-DA58-4EE3-85EE-774404E5D402}
+		{B33D1AE7-8FC3-4DFD-8885-47B14BF63E28} = {1FCA2BF9-C992-4367-A4D5-99201D23BC63}
+		{BFFA6346-00B6-47A7-9E49-3C9DC7583931} = {B6584B45-BD89-4A1D-AC44-49FA3486F8F8}
+		{A9D4A523-FCB9-4B27-A9C8-F24E32641A08} = {B6584B45-BD89-4A1D-AC44-49FA3486F8F8}
+		{DB70A585-DB63-4AFF-B7F9-BBC2080D6A88} = {B6584B45-BD89-4A1D-AC44-49FA3486F8F8}
+		{34698D82-1078-48F6-B142-E55A081637A4} = {7CCE100E-CDDC-41C3-9E64-A32FBAEE41AA}
+	EndGlobalSection
+EndGlobal

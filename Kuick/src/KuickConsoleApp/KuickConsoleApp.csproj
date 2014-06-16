@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{455C9FC3-950E-424F-B734-E4744704114E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KuickConsoleApp</RootNamespace>
+    <AssemblyName>KuickConsoleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kuick.BuiltIn.Config\Kuick.Builtin.Config.csproj">
+      <Project>{D2BBFA6F-394C-455D-8D10-204DC7F19CAD}</Project>
+      <Name>Kuick.Builtin.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick.BuiltIn.Mapping\Kuick.Builtin.Mapping.csproj">
+      <Project>{48B28971-C322-4632-91CD-C4E9861EFF81}</Project>
+      <Name>Kuick.Builtin.Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick.Data.MSSql\Kuick.Data.MSSql.csproj">
+      <Project>{AE0A1C75-08A0-4842-B9E4-2A34AB2009AB}</Project>
+      <Name>Kuick.Data.MSSql</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick\Kuick.csproj">
+      <Project>{5A119AE4-21E6-48A6-BA0E-28899638BD8E}</Project>
+      <Name>Kuick</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Kuick.Web.UI.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Kuick.Web.UI.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Kuick.Web.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\AntiXssLibrary.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\HtmlSanitizationLibrary.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Kuick.Web.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\AntiXssLibrary.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\HtmlSanitizationLibrary.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\obj\Release\Kuick.Web.UI.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\obj\Release\Kuick.Web.UI.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Web.UI\obj\Release\Kuick.Web.UI.csprojResolveAssemblyReference.cache

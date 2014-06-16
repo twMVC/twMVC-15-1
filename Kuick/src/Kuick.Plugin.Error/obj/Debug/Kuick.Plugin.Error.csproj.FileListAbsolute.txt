@@ -1,0 +1,11 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\bin\Debug\Kuick.Plugin.Error.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\bin\Debug\Kuick.Plugin.Error.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\bin\Debug\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\bin\Debug\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\bin\Debug\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\bin\Debug\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\bin\Debug\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\bin\Debug\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\obj\Debug\Kuick.Plugin.Error.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\obj\Debug\Kuick.Plugin.Error.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Plugin.Error\obj\Debug\Kuick.Plugin.Error.csprojResolveAssemblyReference.cache

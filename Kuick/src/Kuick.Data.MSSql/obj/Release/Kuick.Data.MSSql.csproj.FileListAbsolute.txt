@@ -1,0 +1,11 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\bin\Release\Kuick.Data.MSSql.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\bin\Release\Kuick.Data.MSSql.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\obj\Release\Kuick.Data.MSSql.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\obj\Release\Kuick.Data.MSSql.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Data.MSSql\obj\Release\Kuick.Data.MSSql.csprojResolveAssemblyReference.cache

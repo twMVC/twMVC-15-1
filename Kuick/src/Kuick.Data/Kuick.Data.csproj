@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3AEE51EB-E1F8-4C45-88AF-36823DB6110F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kuick.Data</RootNamespace>
+    <AssemblyName>Kuick.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Kuick.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\Api.cs" />
+    <Compile Include="Api\TransactionApi.cs" />
+    <Compile Include="Cache\DbCache.cs" />
+    <Compile Include="Cache\DbSettingCache.cs" />
+    <Compile Include="Cache\EntityCache.cs" />
+    <Compile Include="Counter\DatabaseConnectionCounter.cs" />
+    <Compile Include="Data\Convention\Interface\ISchemaNamingConvention.cs" />
+    <Compile Include="Data\Convention\PascalToUpperCasingConvention.cs" />
+    <Compile Include="Data\Attribute\DatabaseAttribute.cs" />
+    <Compile Include="Data\DatabaseFactory.cs" />
+    <Compile Include="Data\Interface\ISqlBuilder.cs" />
+    <Compile Include="Data\Interface\ISqlDatabase.cs" />
+    <Compile Include="Data\SqlDatabase.cs" />
+    <Compile Include="Data\Convention\SqlNamingConvention.cs" />
+    <Compile Include="Data\SqlProxy.cs" />
+    <Compile Include="Data\SqlReader.cs" />
+    <Compile Include="Entity\Attribute\ColumnIdentity.cs" />
+    <Compile Include="Entity\Attribute\ColumnRefer.cs" />
+    <Compile Include="Entity\Attribute\ColumnInitiate.cs" />
+    <Compile Include="Entity\Attribute\ColumnRender.cs" />
+    <Compile Include="Entity\Attribute\ColumnSerializable.cs" />
+    <Compile Include="Entity\Difference\DiffValue.cs" />
+    <Compile Include="Entity\Definition\Column.cs" />
+    <Compile Include="Entity\Definition\Table.cs" />
+    <Compile Include="Entity\Difference\Difference.cs" />
+    <Compile Include="Entity\Difference\Attribute\FollowDiff.cs" />
+    <Compile Include="Entity\Difference\Attribute\IgnoreDiff.cs" />
+    <Compile Include="Entity\Difference\Enum\DiffMethod.cs" />
+    <Compile Include="Entity\Dynamic\DynamicData.cs" />
+    <Compile Include="Entity\Enum\ColumnDataFormat.cs" />
+    <Compile Include="Entity\Enum\ReferValue.cs" />
+    <Compile Include="Entity\Enum\VisualSize.cs" />
+    <Compile Include="Entity\EventArgs\EntityEventArgs.cs" />
+    <Compile Include="Entity\EventHandler.cs" />
+    <Compile Include="Entity\Interface\IDynamicData.cs" />
+    <Compile Include="Entity\Interface\IObjectEntity.cs" />
+    <Compile Include="Entity\Interface\ISortableEntity.cs" />
+    <Compile Include="Entity\Render\Interface\IRender.cs" />
+    <Compile Include="Entity\Interface\ISchema.cs" />
+    <Compile Include="Entity\Interface\IValidate.cs" />
+    <Compile Include="Entity\Interface\IValidation.cs" />
+    <Compile Include="Entity\Mapping\Interface\IMapping.cs" />
+    <Compile Include="Entity\Mapping\MappingHelper.cs" />
+    <Compile Include="Entity\Mapping\MappingInstanceHelper.cs" />
+    <Compile Include="Entity\Mapping\Null\NullMapping.cs" />
+    <Compile Include="Entity\Render\RenderString.cs" />
+    <Compile Include="Entity\Render\RenderDate.cs" />
+    <Compile Include="Entity\Render\RenderDateTime.cs" />
+    <Compile Include="Entity\Render\RenderMoney.cs" />
+    <Compile Include="Entity\Render\RenderBoolean.cs" />
+    <Compile Include="Entity\Render\RenderRefer.cs" />
+    <Compile Include="Entity\Schema\TableSchema.cs" />
+    <Compile Include="Entity\SortableEntity.cs" />
+    <Compile Include="Error\__000_DataError_RemainRelevantData.cs" />
+    <Compile Include="Interceptor\AfterRAction.cs" />
+    <Compile Include="Interceptor\BeforeCUDAction.cs" />
+    <Compile Include="Interceptor\AfterCUDAction.cs" />
+    <Compile Include="Interceptor\BeforeExecuteAction.cs" />
+    <Compile Include="Interceptor\InterceptorCache.cs" />
+    <Compile Include="Interceptor\Interceptor.cs" />
+    <Compile Include="Interceptor\BeforeRAction.cs" />
+    <Compile Include="Misc\All.cs" />
+    <Compile Include="Misc\DataResult.cs" />
+    <Compile Include="Misc\DataUtility.cs" />
+    <Compile Include="Misc\EventHandler.cs" />
+    <Compile Include="Sql\Enum\SqlMode.cs" />
+    <Compile Include="Sql\Enum\SqlDataFormat.cs" />
+    <Compile Include="Sql\Enum\SqlLiteralFormat.cs" />
+    <Compile Include="Sql\Enum\SqlSetFormat.cs" />
+    <Compile Include="Sql\Enum\SqlSetValueFormat.cs" />
+    <Compile Include="Sql\Interface\IWithOperator.cs" />
+    <Compile Include="Sql\SqlAggregate.cs" />
+    <Compile Include="Sql\SqlCriterion.cs" />
+    <Compile Include="Sql\SqlExpression.cs" />
+    <Compile Include="Sql\SqlJoin.cs" />
+    <Compile Include="Sql\SqlLiteral.cs" />
+    <Compile Include="Sql\SqlOrderBy.cs" />
+    <Compile Include="Sql\SqlSet.cs" />
+    <Compile Include="Misc\DataConstants.cs" />
+    <Compile Include="Misc\DataCurrent.cs" />
+    <Compile Include="Sql\Sql.cs" />
+    <Compile Include="Data\SqlBuilder.cs" />
+    <Compile Include="Data\SqlParser.cs" />
+    <Compile Include="Entity\Attribute\ColumnEncrypt.cs" />
+    <Compile Include="Entity\Attribute\ColumnSpec.cs" />
+    <Compile Include="Entity\Attribute\ColumnVisual.cs" />
+    <Compile Include="Entity\Attribute\EntityIndex.cs" />
+    <Compile Include="Entity\Attribute\EntityMapping.cs" />
+    <Compile Include="Entity\Attribute\EntitySpec.cs" />
+    <Compile Include="Entity\Attribute\EntityVisual.cs" />
+    <Compile Include="Entity\Attribute\ValidationBasic.cs" />
+    <Compile Include="Entity\Attribute\ValidationDate.cs" />
+    <Compile Include="Entity\Attribute\ValidationInteger.cs" />
+    <Compile Include="Entity\Attribute\ValidationString.cs" />
+    <Compile Include="Entity\Dynamic\DynamicEntity.cs" />
+    <Compile Include="Entity\Dynamic\Attribute\EntityDynamic.cs" />
+    <Compile Include="Entity\Entity.cs" />
+    <Compile Include="Entity\Enumerator\EntityEnumerator.cs" />
+    <Compile Include="Entity\Enum\BoundaryDate.cs" />
+    <Compile Include="Entity\Enum\BoundaryInteger.cs" />
+    <Compile Include="Entity\Enum\BoundaryString.cs" />
+    <Compile Include="Entity\Enum\ScheduleAction.cs" />
+    <Compile Include="Entity\Enum\SpecFlag.cs" />
+    <Compile Include="Entity\Enum\VisualFlag.cs" />
+    <Compile Include="Entity\Enum\VisualInput.cs" />
+    <Compile Include="Entity\Enum\VisualStyle.cs" />
+    <Compile Include="Entity\Generator\EntityGenerator.cs" />
+    <Compile Include="Entity\Generator\EntitySetting.cs" />
+    <Compile Include="Entity\HierarchyEntity.cs" />
+    <Compile Include="Entity\Interface\IEntity.cs" />
+    <Compile Include="Entity\Interface\IHierarchyEntity.cs" />
+    <Compile Include="Entity\Null\NullEntity.cs" />
+    <Compile Include="Entity\Null\NullHierarchyEntity.cs" />
+    <Compile Include="Entity\Null\NullObjectEntity.cs" />
+    <Compile Include="Entity\Null\NullViewEntity.cs" />
+    <Compile Include="Entity\ObjectEntity.cs" />
+    <Compile Include="Entity\Schedule\EntitySchedule.cs" />
+    <Compile Include="Entity\Schema\ColumnSchema.cs" />
+    <Compile Include="Entity\Schema\IndexSchema.cs" />
+    <Compile Include="Entity\Schema\ViewSchema.cs" />
+    <Compile Include="Entity\Synchronizer\EntitySynchronizer.cs" />
+    <Compile Include="Entity\ViewEntity.cs" />
+    <Compile Include="Misc\DataExtender.cs" />
+    <Compile Include="Misc\DataStart.cs" />
+    <Compile Include="Misc\DbSetting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sql\Enum\SqlAggregateFunction.cs" />
+    <Compile Include="Sql\Enum\SqlDirection.cs" />
+    <Compile Include="Sql\Enum\SqlDistinctDate.cs" />
+    <Compile Include="Sql\Enum\SqlDml.cs" />
+    <Compile Include="Entity\Enum\InitiateValue.cs" />
+    <Compile Include="Sql\Enum\SqlDataType.cs" />
+    <Compile Include="Sql\Enum\SqlLock.cs" />
+    <Compile Include="Sql\Enum\SqlLogic.cs" />
+    <Compile Include="Sql\Enum\SqlOperator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kuick.snk" />
+    <None Include="Properties\build.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\EventHandler\" />
+    <Folder Include="Entity\Tag\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kuick\Kuick.csproj">
+      <Project>{5A119AE4-21E6-48A6-BA0E-28899638BD8E}</Project>
+      <Name>Kuick</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <!-- customized build-->
+  <!--<Import Project="Properties\build.targets" />-->
+</Project>

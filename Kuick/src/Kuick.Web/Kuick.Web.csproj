@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1232BA8-680A-44AE-A372-3C01C418836B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kuick.Web</RootNamespace>
+    <AssemblyName>Kuick.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Kuick.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AntiXssLibrary">
+      <HintPath>..\packages\AntiXSS.4.2.1\lib\net40\AntiXssLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlSanitizationLibrary">
+      <HintPath>..\packages\AntiXSS.4.2.1\lib\net40\HtmlSanitizationLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Application\Kuicker\packages\Newtonsoft.Json.5.0.5\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attribute\AcceptFilterAttribute.cs" />
+    <Compile Include="Attribute\PageAuthorizeAttribute.cs" />
+    <Compile Include="Attribute\CacheDurationAttribute.cs" />
+    <Compile Include="Attribute\CacheDurationEntityKeyValueAttribute.cs" />
+    <Compile Include="Attribute\CacheDurationEntityNameAttribute.cs" />
+    <Compile Include="Attribute\CompressAttribute.cs" />
+    <Compile Include="Attribute\RequestParameterAttribute.cs" />
+    <Compile Include="Attribute\SecureAttribute.cs" />
+    <Compile Include="Attribute\VaryByParamAttribute.cs" />
+    <Compile Include="Base\ApiHandlerBase.cs" />
+    <Compile Include="Base\Global.cs" />
+    <Compile Include="Base\HandlerBase.cs" />
+    <Compile Include="Base\ImageHandlerBase.cs" />
+    <Compile Include="Base\ImpersonatorImageHandlerBase.cs" />
+    <Compile Include="Base\MasterPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\ModuleBase.cs" />
+    <Compile Include="Base\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\SingletonUserControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\UserControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\WebBase.cs" />
+    <Compile Include="Base\WebControlBase.cs" />
+    <Compile Include="Enum\HttpMethod.cs" />
+    <Compile Include="Enum\RequestType.cs" />
+    <Compile Include="Enum\ResizeWay.cs" />
+    <Compile Include="Enum\ThumbnailWay.cs" />
+    <Compile Include="EventArgs\HandlerEventArgs.cs" />
+    <Compile Include="Interface\IImageCarrier.cs" />
+    <Compile Include="Interface\IModule.cs" />
+    <Compile Include="Interface\IPage.cs" />
+    <Compile Include="Interface\IParameter.cs" />
+    <Compile Include="Interface\IWeb.cs" />
+    <Compile Include="Misc\Authenticator.cs" />
+    <Compile Include="Misc\Authorizer.cs" />
+    <Compile Include="Misc\WebChecker.cs" />
+    <Compile Include="Misc\WebConstants.cs" />
+    <Compile Include="Misc\CookieManager.cs" />
+    <Compile Include="Misc\WebCurrent.cs" />
+    <Compile Include="Enum\ApiMode.cs" />
+    <Compile Include="Enum\HttpVerbs.cs" />
+    <Compile Include="Enum\SecurePolicy.cs" />
+    <Compile Include="Enum\WebServerType.cs" />
+    <Compile Include="Handler\CompressionHandler.cs" />
+    <Compile Include="Misc\AttributeHelper.cs" />
+    <Compile Include="Misc\Html.cs" />
+    <Compile Include="Misc\JSMin.cs" />
+    <Compile Include="Misc\WebConfig.cs" />
+    <Compile Include="Misc\WebExtender.cs" />
+    <Compile Include="Misc\WebInitializer.cs" />
+    <Compile Include="Misc\PathQuery.cs" />
+    <Compile Include="Misc\WebPageCollector.cs" />
+    <Compile Include="Misc\WebParameter.cs" />
+    <Compile Include="Misc\WebPathQuery.cs" />
+    <Compile Include="Module\BackEndModule.cs" />
+    <Compile Include="Module\CompressionModule.cs" />
+    <Compile Include="Module\HtmlOutputFilter.cs" />
+    <Compile Include="Module\HtmlOutputModule.cs" />
+    <Compile Include="Module\OnDemandSyncModule.cs" />
+    <Compile Include="Module\UrlRewriteModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Misc\WebUtility.cs" />
+    <Compile Include="Storage\CookieStorage.cs" />
+    <Compile Include="Storage\SessionStorage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kuick.snk" />
+    <None Include="packages.config" />
+    <None Include="Properties\build.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kuick.Data\Kuick.Data.csproj">
+      <Project>{3AEE51EB-E1F8-4C45-88AF-36823DB6110F}</Project>
+      <Name>Kuick.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kuick\Kuick.csproj">
+      <Project>{5A119AE4-21E6-48A6-BA0E-28899638BD8E}</Project>
+      <Name>Kuick</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <!-- customized build-->
+  <!--<Import Project="Properties\build.targets" />-->
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+</Project>

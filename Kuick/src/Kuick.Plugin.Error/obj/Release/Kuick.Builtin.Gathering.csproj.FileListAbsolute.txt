@@ -1,0 +1,11 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\obj\Release\Kuick.Builtin.Gathering.csprojResolveAssemblyReference.cache
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\bin\Release\Kuick.Builtin.Gathering.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\bin\Release\Kuick.Builtin.Gathering.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\obj\Release\Kuick.Builtin.Gathering.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Gathering\obj\Release\Kuick.Builtin.Gathering.pdb

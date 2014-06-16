@@ -1,0 +1,10 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\bin\Release\KuickSample.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\bin\Release\KuickSample.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\obj\Release\KuickSample.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\KuickSample\obj\Release\KuickSample.pdb

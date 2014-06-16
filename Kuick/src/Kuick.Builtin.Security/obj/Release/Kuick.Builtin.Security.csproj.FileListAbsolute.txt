@@ -1,0 +1,16 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Kuick.Builtin.Security.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Kuick.Builtin.Security.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Kuick.Web.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\AntiXssLibrary.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\HtmlSanitizationLibrary.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Kuick.Web.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\AntiXssLibrary.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\HtmlSanitizationLibrary.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\obj\Release\Kuick.Builtin.Security.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.Builtin.Security\obj\Release\Kuick.Builtin.Security.pdb

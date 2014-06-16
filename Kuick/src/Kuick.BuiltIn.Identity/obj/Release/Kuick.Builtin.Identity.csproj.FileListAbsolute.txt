@@ -1,0 +1,11 @@
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\bin\Release\Kuick.Builtin.Identity.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\bin\Release\Kuick.Builtin.Identity.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\bin\Release\Kuick.Data.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\bin\Release\Kuick.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\bin\Release\Newtonsoft.Json.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\bin\Release\Kuick.Data.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\bin\Release\Kuick.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\bin\Release\Newtonsoft.Json.xml
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\obj\Release\Kuick.Builtin.Identity.dll
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\obj\Release\Kuick.Builtin.Identity.pdb
+C:\_\Dropbox\Biz\Kuick\trunk\src\Kuick.BuiltIn.Identity\obj\Release\Kuick.Builtin.Identity.csprojResolveAssemblyReference.cache
